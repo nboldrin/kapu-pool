@@ -3,7 +3,7 @@
 	"node": "https://walletapi.kapu.one",
 	"nodepay": "https://kapu-research.nb17.it",
 	"pubkey": "0209883e8a2dbfcb168f0229dd9b2239877d3fb4d1c77687934910a3fbbd950511",
-	"percentage": 85,
+	"percentage": 75,
 	"logfile": "poollogs.json",
 	"minpayout": 0.2,
 	"secret": "",
