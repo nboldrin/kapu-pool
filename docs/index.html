@@ -8,8 +8,13 @@
     </head>
     <body ng-app="delegateApp" ng-controller="indexCtrl">
         <div class="container">
-            <h1>dakk Delegate Pool (<a href="https://explorer.lisk.io/address/2324852447570841050L" target="_blank">Explorer</a>, <a href="https://forum.lisk.io/viewtopic.php?f=48&t=1094" target="_blank">Proposal</a>)</h1>
-            <div class="alert alert-info" role="alert">Sharing weekly 15% of forged amount to voters; vote for delegate dakk to receive a reward in the next week.</div>
+            <h1>
+		Kapu-Research Delegate Pool (
+		    <a href="https://explorer.kapu.one/address/K8GFejRujZjYjynqVdaQJvAWWY3iiSrWcq" target="_blank">Explorer</a>,
+		    <!--a href="https://forum.lisk.io/viewtopic.php?f=48&t=1094" target="_blank">Proposal</a-->
+		)
+	    </h1>
+            <div class="alert alert-info" role="alert">Sharing weekly 75% of forged amount to voters; vote for delegate kapu-research to receive a reward in the next week.</div>
 
             <div class="row">
                 <div class="col-md-4">
@@ -34,10 +39,10 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <div class="alert alert-success" role="alert">Total paid: {{total.paid|number:8}} LSK</div>
+                    <div class="alert alert-success" role="alert">Total paid: {{total.paid|number:8}} KAPU</div>
                 </div>
                 <div class="col-md-6">
-                    <div class="alert alert-danger" role="alert">Total pending: {{total.pending|number:8}} LSK</div>
+                    <div class="alert alert-danger" role="alert">Total pending: {{total.pending|number:8}} KAPU</div>
                 </div>
             </div>
 
@@ -45,8 +50,8 @@
                 <thead>
                     <tr>
                         <th>Address</th>
-                        <th>Paid (LSK)</th>
-                        <th>Pending (LSK)</th>
+                        <th>Paid (KAPU)</th>
+                        <th>Pending (KAPU)</th>
                 </thead>
                 <tbody>
                     <tr ng-repeat="acc in (accounts|orderBy:'-received')">
@@ -60,7 +65,7 @@
             <hr>
             <div align="center">
 	            This software is free software created by Davide Gessa<br>
-	            <a href="https://github.com/dakk/lisk-pool">Fork me on Github</a>
+	            <a href="https://github.com/dakk/lisk-pool">Fork him on Github</a>
 	        </div>
         </div>
     </body>
