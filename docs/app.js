@@ -20,7 +20,7 @@ app.controller('indexCtrl', function($scope, $http) {
         }
     });
 
-    $http.get ('https://wallet.lisknode.io/api/delegates/get?username=dakk').then (function (res) {
+    $http.get ('https://walletapi.kapu.one/api/delegates/get?username=kapu.research').then (function (res) {
         $scope.delegate = res.data.delegate;
     });
 });
